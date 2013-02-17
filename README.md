@@ -1,3 +1,5 @@
+Original at [Solarized Colorscheme for Emacs](https://github.com/sellout/emacs-color-theme-solarized/blob/master/README.md)
+
 Screenshots
 -----------
 
@@ -6,14 +8,19 @@ Screenshots
 Installation & Usage
 --------------------
 
-### Emacs 24
+### emacs 24
 
-1. Add the `emacs-color-theme-solarized` directory to your emacs `custom-theme-load-path`, 
+1. `git clone` and move the `emacs-color-theme-solarized` directory to your .emacs.d/emacs-color-theme-solarized,
+
    OR install from marmalade using `package-install color-theme-solarized`
+   
 2. Add `(load-theme 'solarized-[light|dark] t)` to your emacs init file.
-    The final '.emacs.d/init.el' looks as : 
-    (add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
-    (load-theme 'solarized-dark t)
+
+   The final `.emacs.d/init.el` looks as : 
+
+    `(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")`
+    
+    `(load-theme 'solarized-dark t)`
 
 3. Reload the init file, or restart emacs24.
 
