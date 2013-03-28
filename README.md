@@ -10,6 +10,12 @@ Installation & Usage
 
 ### emacs 24
 
+0. If `emacs24` [not installed](http://wikemacs.org/wiki/Installing_Emacs_on_GNU/Linux#Emacs_24)
+   ```
+      $ sudo apt-add-repository ppa:cassou/emacs
+      $ sudo apt-get install emacs24
+   ```
+
 1. `git clone https://github.com/sellout/emacs-color-theme-solarized.git;` and move the `emacs-color-theme-solarized` directory to your  `.emacs.d/emacs-color-theme-solarized`,
    
    [OR](http://david.rothlis.net/emacs/customize_colors.html)
@@ -20,7 +26,7 @@ Installation & Usage
 
    OR 
    
-    install from marmalade using :
+   install from [marmalade](http://marmalade-repo.org/) using :
 
     `package-install color-theme-solarized`
    
