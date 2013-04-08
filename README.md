@@ -16,7 +16,12 @@ Installation & Usage
       $ sudo apt-get install emacs24
    ```
 
-1. `git clone https://github.com/sellout/emacs-color-theme-solarized.git;` and move the `emacs-color-theme-solarized` directory to your  `.emacs.d/emacs-color-theme-solarized`,
+1. install `color-theme-solarized`
+
+   ```
+      $ git clone https://github.com/sellout/emacs-color-theme-solarized.git;
+      $ sudo mv emacs-color-theme-solarized ~/.emacs.d/emacs-color-theme-solarized
+   ```
    
    [OR](http://david.rothlis.net/emacs/customize_colors.html)
 
